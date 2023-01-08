@@ -7,4 +7,3 @@
  mercy
  precious
  bright
- johnson
