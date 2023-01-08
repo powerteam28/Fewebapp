@@ -1,0 +1,14 @@
+- hosts: databases
+  var:
+   password: Devopps2022
+   username: Comfort
+  tasks:
+  - Name: create username
+    user: "{{username}}"
+    state: present
+  - name: install package
+    package: ['wget', 'unzip']
+    state: latest
+  - name:
+    debgug:
+       msg: "{{password}}"
