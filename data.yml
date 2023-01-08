@@ -2,6 +2,7 @@
   var:
    password: Devopps2022
    username: Comfort
+   hostname: Bram
   tasks:
   - Name: create username
     user: "{{username}}"
